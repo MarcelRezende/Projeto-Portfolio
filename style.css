@@ -1,5 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0 auto;
+  text-align:center;
+  background-color: black;
+  width: 1366px;;
+}
+
+#text-header {
+  width: 1040px;
+  height: 447px;
+}
+
+#header {
+background-position: center;
+  background-image: url(./assets/Background_Intro.jpg);
+  background-size: cover;
+  height: 750px;
+  margin: 0 auto;
+}
+#text-header {
+  width: 750px;
+}
+
+#text-header p, h1,h2 {
+  padding:20px;
+}
+
+#next {
+  background-color: #16181D;
+}
+
+#work {
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #16181D;
+}
 
 
+#logos {
+  display: flex;
+  justify-content: space-between;
+  width: 754px;
+  padding:80px;
+  background-color: #16181D;
+}
+
+#projects .images {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 1366px;
+  background-color: #16181D;
+  padding: 37px;
+  gap: 24px;
+}
+
+#infobox {
+  display: flex;
+
+  width: 1366px;
+  background-color: #0D0E11;
+  
+}
+
+#services {
+  background-color: #0D0E11;
+  height: 480px;
+  padding: 80px;  
+  margin: 0 auto;
+}
+
+#contact {
+  background-image: url(./assets/Contact.jpg);
+  height: 787px;
+  background-size: cover;
+  padding: 128px;
+}
+
+#links a {
+  text-transform: none;
+  
+}
 
 
 
