@@ -29,6 +29,7 @@ body {
   width: 32px;
   right: -8px;
   bottom: -6px;
+  padding-bottom: 8px;
 }
 
 
@@ -42,10 +43,11 @@ body {
   font: var(--text-sbt);
   color: var(--color-gray300);
   letter-spacing: 0.02em;
+
 }
 
 #me h2 span {
-  color: var(--color-red);
+  color: var(--color-blue);
   font: var(--text-sbt);
   letter-spacing: 0.02em;
 }
@@ -81,6 +83,7 @@ h2 {
 }
 
 #next {
+
   background-color: #16181D;
 }
 
@@ -92,7 +95,7 @@ h2 {
 
 #work h3 {
   font: var(--text-sbt);
-  color: var(--color-red);
+  color: var(--color-blue);
   padding-top: 82px;
 }
 
@@ -114,6 +117,7 @@ h2 {
 .boxlogo span {
   color: var(--color-gray200);
   font: var(--text-md-maven);
+  text-align: center;
 }
 
 #logos .boxlogo {
@@ -127,6 +131,8 @@ h2 {
   align-items: center;
   gap: 8px;
   line-height: 1;
+
+  transform: none;
 }
 
 
@@ -134,7 +140,6 @@ h2 {
   width: 100%;
   max-width: 1040px;
   margin: 0 auto;
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
@@ -159,7 +164,6 @@ h2 {
   height: 250px;
 
   border-radius: 10px;
-  padding-bottom: 40px;
 }
 
 #projects .card h3 {
@@ -188,7 +192,7 @@ h2 {
 
 #infoservice h3 {
   font: var(--text-sbt);
-  color: var(--color-red);
+  color: var(--color-blue);
 
 }
 
@@ -204,13 +208,13 @@ h2 {
   justify-content: center;
   padding-top: 56px;
   gap: 24px;
-  
+
 }
 
 #infobox .box {
   width: 280px;
   min-height: 140px;
-gap: 8px;
+  gap: 8px;
 
   font: var(--text-sm-maven);
 
@@ -220,7 +224,7 @@ gap: 8px;
   display: flex;
   flex-direction: column;
   align-items: start;
-  
+
 
   border: 2px solid var(--color-gray400);
   padding: 20px;
@@ -238,11 +242,26 @@ gap: 8px;
   background-image: url(./assets/Contact.jpg);
   height: 787px;
   background-size: cover;
-  padding: 128px;
+  padding: 80px;
 }
 
+#contact h3 {
+  font: var(--text-sbt);
+  color: var(--color-blue);
+}
 
-/* IA */
+#contact h1 {
+  font: var(--text-md-asap);
+  color: var(--color-gray100);
+}
+
+#contact p {
+  font: var(--text-sm-maven);
+  color: var(--color-gray200);
+  padding-top: 8px;
+}
+
+/* botões */
 
 #links {
   width: 100%;
@@ -280,7 +299,8 @@ gap: 8px;
 
 #links .box span {
   flex: 1;
-  text-align: left;
+  text-align: center;
+  font: var(--text-md-maven);
 }
 
 #links .box img:first-child {
@@ -297,4 +317,10 @@ gap: 8px;
   border-color: #3996db;
   color: white;
   transform: translateY(-2px);
+}
+
+footer {
+  font: var(--text-sm-maven);
+  color: var(--color-gray200);
+  padding-top: 150px;
 }
