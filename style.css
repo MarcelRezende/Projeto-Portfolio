@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;600;700&family=Inconsolata:wght@400;700&family=Maven+Pro:wght@400;500;600;700&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,6 +11,47 @@ body {
   text-align: center;
   background-color: black;
   width: 1366px;
+}
+#photo {
+  position: relative;
+  width: fit-content;
+  margin-inline: auto;
+}
+
+#photo .avatar {
+  display: block;
+}
+
+#photo .code {
+  position: absolute;
+  width: 32px;
+  right: -8px;
+  bottom: -6px;
+}
+
+
+#me h1 {
+  font: var(--text-lg-asap);
+  color: var(--color-gray100);
+  letter-spacing: 0.02em;
+}
+
+#me h2 {
+  font: var(--text-sbt);
+  color: var(--color-gray300);
+  letter-spacing: 0.02em;
+}
+
+#me h2 span {
+  color: var(--color-red);
+  font: var(--text-sbt);
+  letter-spacing: 0.02em;
+}
+
+#me p {
+  font: var(--text-sm-maven);
+  color: var(--color-gray300);
+  letter-spacing: 0.02em;
 }
 
 #text-header {
@@ -48,20 +91,39 @@ h2 {
 
 #logos {
   display: flex;
-  justify-content: space-between;
-  width: 754px;
-  padding: 80px;
-  background-color: #16181D;
+  gap: 8px;
+  align-items: center;
+  padding-top: 80px;
+  font: var(--text-md-maven);
 }
 
-#projects .images {
-width: 100%;
-max-width: 1040px;
-margin: 0 auto;
+.boxlogo span {
+  color: var(--color-gray200);
+  font: var(--text-md-maven);
+}
 
-display: grid;
-grid-template-columns: repeat(2,1fr);
-gap: 24px;
+#logos .boxlogo {
+  height: 48px;
+  width: 160px;
+  color: #5d6164;
+  background-color: var(--color-gray400);
+  border-radius: 999px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 1;
+}
+
+
+#projects .images {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
 }
 
 #projects .card {
@@ -81,7 +143,7 @@ gap: 24px;
   display: block;
   width: 100%;
   height: 180px;
-  
+
   object-fit: cover;
   border-radius: 8px;
 }
@@ -164,7 +226,7 @@ gap: 24px;
   transition: 0.2s;
 }
 
-#links .box > * {
+#links .box>* {
   margin: 0;
 }
 

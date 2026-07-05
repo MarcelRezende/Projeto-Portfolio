@@ -16,8 +16,15 @@
   --color-gray500: #16181d;
   --color-gray600: #0d0e11;
 
+  /* TEXTOS */
+  --text-lg-asap: 700 56px/120% "Asap", sans-serif;
+  --text-md-asap: 500 24px/120% "Asap", sans-serif;
+  --text-sm-asap: 400 16px/120% "Asap", sans-serif;
+
+  --text-sbt: 20px/1 "Inconsolata", sans-serif;
+
+  --text-md-maven: 16px/1.5 "Maven Pro", sans-serif;
+  --text-sm-maven: 14px/1.5 "Maven Pro", sans-serif;
+
+
 }
-
-
-
-
