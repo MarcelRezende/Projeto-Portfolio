@@ -4,7 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap"
+    rel="stylesheet">
 
   <title> Portfólio | Marcel Rezende </title>
 </head>
@@ -27,32 +33,32 @@
       </div>
 
       <div id="logos" class="info">
-        <div>
+        <div class="boxlogo">
           <img src="./assets/GitHub.png">
           <span>GITHUB</span>
         </div>
 
-        <div>
+       <div class="boxlogo">
           <img src="./assets/HTML.png">
           <span>HTML</span>
         </div>
 
-        <div>
+        <div class="boxlogo">
           <img src="./assets/CSS.png">
           <span>CSS</span>
         </div>
 
-        <div>
+       <div class="boxlogo">
           <img src="./assets/JavaScript.png">
           <span>JAVASCRIPT</span>
         </div>
 
-        <div>
+        <div class="boxlogo">
           <img src="./assets/React.png">
           <span>React</span>
         </div>
 
-        <div>
+       <div class="boxlogo">
           <img src="./assets/Node.js.png">
           <span>Node.js</span>
         </div>
@@ -69,34 +75,35 @@
       <div class="work-txt1">
         <h3>Meu trabalho</h3>
       </div>
-      <div class="work-txt2">
-        <h1>Veja os projetos em destaque</h1>
-      </div>
+    </div>
+    <div class="work-txt2">
+      <h1>Veja os projetos em destaque</h1>
+    </div>
   </section>
 
   <section id="projects">
     <div class="images">
-      <div>
-        <img class="border-radius" src="./assets/AgregadorLinks.jpg" alt="Agregador de Links.">
+      <div class="card">
+        <img src="./assets/AgregadorLinks.jpg" alt="Agregador de Links.">
         <h3>Agregador de Links</h3>
         <p>Local onde estão os links principais de um perfil.</p>
       </div>
 
-      <div>
-        <img class="border-radius" src="./assets/TechNews.jpg" alt="Agregador de Links.">
+      <div class="card">
+        <img src="./assets/TechNews.jpg" alt="Agregador de Links.">
         <h3>Página de Noticias</h3>
         <p>Homepage de um portal de notícias sobre a área de tecnologia</p>
       </div>
 
-      <div>
-        <img class="border-radius" src="assets/PagReceita.jpg" alt="Agregador de Links.">
+      <div class="card">
+        <img src="assets/PagReceita.jpg" alt="Agregador de Links.">
         <h3>Página de Receita</h3>
         <p>Página com o passo a passo de uma receita para cupcakes</p>
       </div>
 
 
-      <div>
-        <img class="border-radius" src="./assets/Travelgram.jpg" alt="Agregador de Links.">
+      <div class="card">
+        <img src="./assets/Travelgram.jpg" alt="Agregador de Links.">
         <h3>Travelgram</h3>
         <p>Rede social onde as pessoas mostram os registros de suas viagens pelo mundo</p>
       </div>
@@ -140,31 +147,32 @@
     </div>
 
     <div id="links">
-      <div class="box">
-        <img src="./assets/LinkedinLogo.svg">
-        <a href="#">Linkedin</a>
-        <img src="./assets/ArrowUpRight.png">
-      </div>
 
-      <div class="box">
-        <img src="./assets/InstagramLogo.png">
-        <a href="#">Instagram</a>
-        <img src="./assets/ArrowUpRight.png">
-      </div>
+      <a class="box" href="https://www.linkedin.com/in/marcel-rezende-074b92188/" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/LinkedinLogo.svg" alt="">
+        <span>LinkedIn</span>
+        <img src="./assets/ArrowUpRight.png" alt="">
+      </a>
 
-      <div class="box">
-        <img src="./assets/GithubLogo.png">
-        <a href="#">Github</a>
-        <img src="./assets/ArrowUpRight.png">
-      </div>
+      <a class="box" href="https://instagram.com/marcelhrez" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/InstagramLogo.png" alt="">
+        <span>Instagram</span>
+        <img src="./assets/ArrowUpRight.png" alt="">
+      </a>
 
-      <div class="box">
-        <img src="./assets/EnvelopeSimple.png">
-        <a href="#">Email</a>
-        <img src="./assets/ArrowUpRight.png">
-      </div>
+      <a class="box" href="https://github.com/MarcelRezende" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/GithubLogo.png" alt="">
+        <span>GitHub</span>
+        <img src="./assets/ArrowUpRight.png" alt="">
+      </a>
 
+      <a class="box" href="mailto:marcelhrez2010@gmail.com">
+        <img src="./assets/EnvelopeSimple.png" alt="">
+        <span>E-mail</span>
+        <img src="./assets/ArrowUpRight.png" alt="">
+      </a>
 
+    </div>
     </div>
   </section>
 </body>
