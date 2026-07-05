@@ -34,7 +34,7 @@ The website presents information about me, my skills, featured projects, and con
 
 ## 📸 Preview
 
-![Portfolio Preview](./assets/preview.png)
+(./assets/preview.png)
 
 <img width="1564" height="1242" alt="image" src="https://github.com/user-attachments/assets/9c1887a5-e024-4e04-bb75-efd6a06da1a3" />
 
